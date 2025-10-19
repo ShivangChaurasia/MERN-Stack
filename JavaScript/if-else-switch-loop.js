@@ -91,6 +91,12 @@ do {
     num++;
 } while (num <= 5);
 
+// Example of ternary operator in JavaScript
+let isMember = true;
+let discount = isMember ? 0.1 : 0;
+console.log("Discount: " + (discount * 100) + "%");
+
+
 
 // Example of for...in loop in JavaScript
 const person = {fname:"John", lname:"Doe", age:25};
