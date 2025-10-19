@@ -32,3 +32,7 @@ console.log(typeof arrayVar);     // "object"
 console.log(typeof functionVar);  // "function"
 // Note: Arrays are of type "object" in JavaScript
 
+// Example of using the variables
+console.log(stringVar);
+console.log(objectVar.name);
+console.log(functionVar());
