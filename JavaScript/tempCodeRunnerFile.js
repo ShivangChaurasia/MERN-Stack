@@ -1,11 +1,8 @@
-const my_eng = 70;
-// const my_math = 85;
-// const my_science = 90;
-// const my_history = 75;
 
-// function percentage(eng, math, science, history) {
-//     const total = eng + math + science + history;
-//     return (total / 400) * 100;
-// }
-
-// console.log("My percentage is: " + percentage(my_eng, my_math, my_science, my_history) + "%");
+// console.log("Type of 1st element: " + typeof random[0]);
+// console.log("Type of 2nd element: " + typeof random[1]);
+// console.log("Type of 3rd element: " + typeof random[2]);
+// console.log("Type of 4th element: " + typeof random[3]);
+// console.log("Type of 5th element: " + typeof random[4]);
+// console.log("Type of 6th element: " + typeof random[5]);
+// console.log("Type of 7th element: " + typeof random[6]);
