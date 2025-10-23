@@ -1,4 +1,5 @@
-let arr = [10, 20, 30, 40, 50];
+let arr = [10, 20, 30, 40, 50]; //if we run typeof on array it will return object//
+
 // console.log("Original array: " + arr);
 // console.log("1st value of array: " + arr[0]);
 // console.log("2nd value of array: " + arr[1]);
