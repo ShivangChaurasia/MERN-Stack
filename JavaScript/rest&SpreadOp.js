@@ -44,15 +44,60 @@
 // array(obj.name, obj.age, obj.city);
 
 
-let arr1 = [1,2,3];
-let arr2 = [4,5,6];
-let combined = [...arr1, ...arr2]; //Using spread operator to combine two arrays
+// let arr1 = [1,2,3];
+// let arr2 = [4,5,6];
+// let combined = [...arr1, ...arr2]; //Using spread operator to combine two arrays
 // console.log("Combined Array: ", combined);
 
 // let [first, ...rest] = combined; //Using rest operator to get first element and the rest of the array
 // console.log("First Element: ", first);
 // console.log("Rest of the Elements: ", rest);
 
-combined.forEach(function(val){
-    console.log(val);
-}) 
+// combined.forEach(function(val){
+//     console.log(val);
+// }) //Using forEach to iterate over combined array and print each value
+
+// const hello = (combined) => {console.log(combined);} //Arrow function to print combined array
+// hello(combined);
+
+// combined.forEach(hello); //Using forEach to iterate over combined array and print each value using arrow function
+
+// let newarr = combined.map((val)=>val*=5); //Using map to iterate over combined array and print each value using arrow function
+// console.log(newarr)
+
+
+// const arr3 = combined.filter((val) => val > 3); //Using filter to get values greater than 3
+// console.log(arr3);
+
+// const newarr = combined.reduce((acc, val) => acc + val, 0); //Using reduce to get sum of all values
+// console.log(newarr);
+
+
+
+let people = [
+    {name: "Alice", age: 25, city: "New York"},
+    {name: "Bob", age: 30, city: "New York"},
+    {name: "Charlie", age: 35, city: "Chicago"},
+    {name: "David", age: 40, city: "Houston"},
+    {name: "Eve", age: 45, city: "Phoenix"}
+];
+
+const cond = people.filter((val) =>{
+    let name = ''
+    if(val.city === "New York"){
+        name += val.name;
+        return name;
+    }
+});
+console.log(cond);
+
+
+
+
+
+
+
+
+
+
+
