@@ -2,6 +2,7 @@ import React,{useState} from "react";
 
 export default function Counter(){
     const [count,setCount] = useState(0);
+
     return(
         <>
             <div class="text-center mt-4 flex flex-col items-center justify-center">
