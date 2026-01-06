@@ -3,7 +3,7 @@
 // Node.js Playlist//Lecture 2: File System Module
 // `======================================================
 // =====================================================
-const file = require('fs'); // Importing the File System module
+// const file = require('fs'); // Importing the File System module
 
 
 // ======================================================
@@ -98,9 +98,18 @@ const file = require('fs'); // Importing the File System module
 
 
 
+// OS Module-------------------------------------------------
+const os = require('os'); // Importing the OS module
 
-
-
+console.log("Operating System Info:"); // Logging a header for OS information
+console.log("Platform:", os.platform()); // Logging the operating system platform
+console.log("Architecture:", os.arch()); // Logging the CPU architecture
+console.log("CPU Info:", os.cpus()); // Logging detailed CPU information
+console.log("Free Memory:", os.freemem()); // Logging the amount of free system memory
+console.log("Total Memory:", os.totalmem());// Logging the total amount of system memory
+console.log("Home Directory:", os.homedir()); // Logging the home directory of the current user
+console.log("Uptime (seconds):", os.uptime()); // Logging the system uptime in seconds
+console.log(os.cpus().length) // Number of CPU cores
 
 
 
