@@ -1,0 +1,1 @@
+This index2.txt file create by writeFile method
