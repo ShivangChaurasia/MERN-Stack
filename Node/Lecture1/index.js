@@ -1,3 +1,9 @@
+//=============================================================
+//===========================================================
+// Node PlayList/ Lecture 1: Understanding Global Objects in Node.js
+//==============================================================
+//=============================================================
+
 // console.log(process) // This will print the entire process object in Node.js
 // console.log(process.argv); // This will print the command line arguments passed to the Node.js script
 // console.log(process.env); // This will print the environment variables available to the Node.js process
@@ -15,13 +21,47 @@
 // console.log(__dirname.split('\\').pop());// This will print the name of the current directory
 // console.log(__filename); // This will print the file name of the current module
 
-const add = require("./addfunc.js");// This will import the add function from the addfunc.js file
-let res = add(5,10);
-console.log(res); // This will print the result of adding 5 and 10, which is 15
+// CJS Module System
+// const cal = require("./calfunc.js");// This will import the add function from the addfunc.js file
+// console.log(module) // This will print the module object in Node.js
+// let res = cal.add(5,10);
+// let multiplyres = cal.multiply(5,10);
+// console.log(res); // This will print the result of adding 5 and 10, which is 15
+// console.log(multiplyres); // This will print the result of multiplying 5 and 10, which is 50
 
 
+// ESM Module System
+// import { add, multiply } from "./calfunc.mjs";
+// let res = add(5,10);
+// let multiplyres = multiply(5,10);
+// console.log(res); // This will print the result of adding 5 and 10, which is 15
+// console.log(multiplyres); // This will print the result of multiplying 5 and 10, which is 50
 
 
+// =============================================================
+// CJS vs ESM
+// =============================================================
+
+// CommonJS (CJS) Module System--------------
+    // Used in Node.js by default
+    // Uses require() to import modules
+    // Uses module.exports or exports to export modules
+    // Synchronous loading of modules
+    // Example:
+        // const fs = require('fs');
+        // const data = fs.readFileSync('file.txt', 'utf8');
+        // console.log(data);
+
+// ECMAScript Modules (ESM)----------------
+    // Standardized module system in JavaScript
+    // Uses import and export statements
+    // Asynchronous loading of modules
+    // Example:
+        // import fs from 'fs';
+        // fs.readFile('file.txt', 'utf8', (err, data) => {
+        //     if (err) throw err;
+        //     console.log(data);
+        // });
 
 
 
