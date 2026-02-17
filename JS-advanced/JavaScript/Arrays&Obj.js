@@ -64,16 +64,16 @@ let arr = [10, 20, 30, 40, 50]; //if we run typeof on array it will return objec
 // console.log("First Course: " + Student.courses[0]);
 
 // Example of for...in loop in JavaScript
-const person = {fname:"John", lname:"Doe", age:25};
+// const person = {fname:"John", lname:"Doe", age:25};
 
-for (let key in person) {
-    console.log(key + ": " + person[key]);
-}
+// for (let key in person) {
+//     console.log(key + ": " + person[key]);
+// }
 
 // Example of for...of loop in JavaScript
 
-const colors = ["Red", "Green", "Blue"];
-for (let color of colors) {
-    console.log("Color: " + color);
-}
+// const colors = ["Red", "Green", "Blue"];
+// for (let color of colors) {
+//     console.log("Color: " + color);
+// }
 
